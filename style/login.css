@@ -18,16 +18,17 @@ a {
     color: #0f7b9c;
 }
 
-div {
+.form_container {
     background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    max-width: 400px;
-    padding: 6%;
     border-radius: 20px;
     box-shadow: 0px 0px 10px 10px #00000042;
+    width: 90%;
+    max-width: 400px;
+    padding: 3rem;
 }
 
 h1 {
