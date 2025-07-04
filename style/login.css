@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Hammersmith+One&family=Rubik+Mono+One&display=swap');
+
+body {
+    background-image: url("https://st3.depositphotos.com/4676065/14743/v/450/depositphotos_147431039-stock-illustration-puzzle-jigsaw-seamless-pattern.jpg");
+    background-repeat: repeat;
+    background-size: 500px 500px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+    color: #0f7b9c;
+}
+
+div {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 400px;
+    padding: 6%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 10px #00000042;
+}
+
+h1 {
+    font-family: Hammersmith One;
+    color: #506b5a;
+    font-size: 300%;
+    margin-bottom: 1px;
+
+}
+
+h2 {
+    margin-bottom: 50px;
+    text-align: center;;
+}
+
+.inputbox {
+    width: 95%;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #adadad;
+    padding-left: 20px
+}
+
+#login {
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #506b5a;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+#login:hover {
+    background-color: #648571;
+}
+
+#createaccount {
+    margin-top: 25px;
+}
