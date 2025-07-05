@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Missão Impossível</title>
+    
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../style/login.css">
+</head>
+<body class="themedbody">
+    <main>
+        <form class="form_container" method="POST">
+        <h1>Entrar</h1>
+        <h2>Entre conosco nessa Missão Impossível.</h2>
+        
+        <label for="email">E-mail</label>
+        <input name="email" class="inputbox" type="text" id="email" placeholder="nome@email.com"/>
+
+        <label for="password">Senha</label>
+        <input name="password" class="inputbox" type="password" id="password" placeholder="Senha Forte" />
+        <a id="forgot_password">Esqueci minha senha</a>
+        <button id="login" class="joinbtn">Entrar</button>
+        
+        <p id="result"></p>
+        <a href="../register" class="reverse">Novo por aqui? Crie uma conta</a>
+    </form>
+    </main>
+    <script type="module" src="../script/login.js"></script>
+</body>
